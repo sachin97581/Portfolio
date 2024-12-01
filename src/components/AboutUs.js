@@ -1,6 +1,7 @@
 import React from "react";
 import { data } from "../constant/constant";
 
+
 const AboutUs = () => {
   return (
     <section id="about" className="py-16 px-4 sm:px-6 lg:px-24 mb-24">
@@ -25,7 +26,7 @@ const AboutUs = () => {
           {/* Content Section */}
           <div className="flex-1 text-center md:text-left mt-8 md:mt-0">
             <p className="text-3xl sm:text-4xl md:text-5xl font-medium">
-              Vipul Kumar
+              Sachin Kumar
             </p>
             <p className="mt-3 sm:mt-5 text-purple-600 text-lg sm:text-xl font-semibold">
               Web Developer | Problem Solver
@@ -38,7 +39,7 @@ const AboutUs = () => {
             <button
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1pJspWviTnEz2hJ7wwOlXPuhVmPmROW9S/view?usp=drive_link"
+                  "https://drive.google.com/file/d/16MmDgoSnLhb7XGGN2vJm1-WGqSY5DKR8/view?usp=sharing"
                 );
               }}
               className="mt-6 px-8 sm:px-10 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition duration-300"

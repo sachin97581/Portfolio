@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 const Contact = () => {
   const form = useRef();
 
@@ -9,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_4myfzwk", // Replace with your EmailJS Service ID
-        "template_1qpmm0l", // Replace with your EmailJS Template ID
+        "service_jamu0m7", // Replace with your EmailJS Service ID
+        "template_73z97n8", // Replace with your EmailJS Template ID
         form.current,
-        "XI-XxpBG4HP29aRoa" // Replace with your EmailJS Public Key
+        "Pf3Sdbn_A2VgT6rGa" // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {

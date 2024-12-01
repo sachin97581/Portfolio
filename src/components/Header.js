@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../style/Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,7 +8,7 @@ const Header = () => {
     <header className="bg-white  sticky top-0 z-50">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
-        <div className="text-2xl sm:text-4xl   font-bold ml-5">Vipul</div>
+        <div className="text-2xl sm:text-4xl   font-bold ml-5">Sachin Kumar</div>
 
         {/* Hamburger Menu for Small Screens */}
         <button

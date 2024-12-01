@@ -1,0 +1,94 @@
+/* General Header Styles */
+header {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  header .font-bold {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+  }
+  
+  header .font-bold:hover {
+    color: #d4e157;
+  }
+  
+  /* Navigation Styles */
+  header ul {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header ul li {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  header ul li:hover {
+    color: #ffd700; /* Gold color on hover */
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Hamburger Button Styles */
+  header button {
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  header button:focus {
+    outline: none;
+    transform: rotate(90deg);
+  }
+  
+  /* Mobile Dropdown Menu */
+  header nav.sm\\:hidden {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+  }
+  
+  header nav.sm\\:hidden ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  header nav.sm\\:hidden ul li:hover {
+    color: #6a11cb;
+  }
+  
+  header nav.sm\\:hidden ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Adjustments for Sticky Header */
+  header.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    /* background: linear-gradient(90deg, #2ac1f4, #d32fc3); */
+    background: linear-gradient(120deg, #b0c6c7, #a5b2cb);
+    animation: slide-down 0.3s ease;
+  }
+  
+  @keyframes slide-down {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  

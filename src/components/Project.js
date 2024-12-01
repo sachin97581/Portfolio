@@ -1,8 +1,11 @@
 import React from "react";
-import swiggy from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/swiggy.jpeg";
-import youtube from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/youtube.jpeg";
+import swiggy from "../photos/swiggy.jpeg";
+import youtube from "../photos/youtube.jpeg";
+import wanderlust from "../photos/wanderlust2.jpeg";
+import "../style/Project.css";
+
 import { FaGithub } from "react-icons/fa"; // Importing GitHub icon from react-icons
-import wanderlust from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/wanderlust2.jpeg";
+
 
 const projects = [
   {
