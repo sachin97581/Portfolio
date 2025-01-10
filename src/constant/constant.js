@@ -1,3 +1,4 @@
+
 import profile1 from "../photos/profile1.jpeg";
 
 const data = {
@@ -5,9 +6,7 @@ const data = {
 };
 export { data };
 
-{
-  /* Right side image */
-}
+// Right side image
 <div className=" w-56 h-56 md:w-80 md:h-80 lg:-translate-x-20 lg:-translate-y-20  mt-2 ">
   <img
     src={data}
